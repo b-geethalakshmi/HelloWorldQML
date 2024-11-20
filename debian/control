@@ -1,0 +1,12 @@
+source: helloworldqml
+Section: video
+Priority: extra
+Maintainer: econsys <econwork1511@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libv4l-dev, libv4l-dev, qt5-default, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, libavresample-dev, libudev-dev, libavcodec-extra,qtdeclarative5-dev, freeglut3, freeglut3-dev, libjpeg-turbo8-dev, libusb-1.0-0-dev, libusb-dev, libevdev-dev, libpulse-dev, qtmultimedia5-dev,libasound2-dev,libturbojpeg0-dev,lsb-release, qtbase5-dev,qt5-qmake,lsb-core
+Standards-Version: 3.9.3
+
+Package: helloworldqml
+Architecture: any
+Depends:  ${shlibs:Depends}, ${misc:Depends},mkvtoolnix, qml-module-qtquick-controls, qml-module-qtquick-dialogs ,qml-module-qtquick-extras,qml-module-qtquick-privatewidgets,qtquickcontrols5-doc ,libavutil-dev ,libavcodec-dev,libavformat-dev,libswscale-dev ,libturbojpeg0-dev ,qtmultimedia5-dev
+Description: It is a webcam application for linux.
+ It is a webcam application for linux developed by e-con systems.
