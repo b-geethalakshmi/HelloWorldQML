@@ -13,4 +13,9 @@ ApplicationWindow {
         anchors.centerIn: parent
         font.pointSize: 24
     }
+    Text {
+        id: hiText
+        text: "Haiiii"
+        font.pointSize: 24
+    }
 }
