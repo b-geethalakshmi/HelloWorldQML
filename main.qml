@@ -18,4 +18,10 @@ ApplicationWindow {
         text: "Haiiii"
         font.pointSize: 24
     }
+    Text {
+        id: byeText
+        text: "Byeee"
+	anchors.bottom: parent.bottom
+        font.pointSize: 24
+    }
 }
